@@ -183,6 +183,8 @@ article h1{
 
 /* ==============Input_parent End============ */
 
+/* ==============Start Footer================ */
+
 footer{
     padding: 2% 5%;
     background-color: #000;
@@ -190,6 +192,8 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
+
+/* ===============Footer End================= */
 
 
 
