@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4{
+    padding-top: 20px;
+}
+
+.content{
+    color: #fff;
+    background-color: #3F3B6C;
+}
+
+.container{
+    width: 1200px;
+    padding: 5%;
+    margin: auto;
+}
+
+/* =============Start Header=============== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_child{
+    gap: 10px;
+    display: flex;
+}
+
+header i{
+    font-size: 28px;
+    font-weight: 40;
+}
+
+ul{
+    gap: 70px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ==============Header End================== */
+
+/* ==============Start Hero================== */
+
+.hero{
+    width: 100%;
+    gap: 100px;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_left{
+    width: 50%;
+}
+
+.hero_right{
+    width: 50%;
+}
+
+/* ==============Hero End==================== */
+
+/* ==============Start Main================== */
+
+main{
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_left{
+    width: 50%;
+}
+
+.main_right{
+    width: 50%;
+}
+
+.main_left img{
+    box-shadow: 0 0 15px 10px #fff;
+}
+
+main img{
+    opacity: .4;
+}
+
+main h3{
+    position: relative;
+    bottom: 100px;
+    padding-left: 20px;
+}
+
+/* ==============Main End==================== */
+
+/* ==============Start Section=============== */
+
+section{
+    color: #000;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec_right{
+    opacity: .7;
+    box-shadow: -20px 20px 20px #9F73AB;
+}
+
+/* ==============Section End================= */
+
+/* ==============Start Article=============== */
+
+article h1{
+    padding-top: 30px;
+}
+
+.art_images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art_img h2{
+    padding: 10px 25px;
+}
+
+.art_images img{
+    opacity: .4;
+}
+
+.img1 h3{
+    position: relative;
+    top: -110px;
+    left: 60px;
+    color: rgb(152, 240, 255);
+}
+
+.img1 h2{
+    position: relative;
+    top: -25px;
+}
+
+.img1 img{
+    position: relative;
+    bottom: -20px;
+}
+
+/* ==============Article End================= */
+
+/* ==============Start Input_parent========== */
+
+.input_parent{
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #624F82;
+    box-shadow: 0 0 20px #9F73AB;
+}
+
+.input_parent input{
+    width: 450px;
+    border: none;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #D9D9D933;
+}
+
+/* ==============Input_parent End============ */
+
+footer{
+    padding: 2% 5%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
